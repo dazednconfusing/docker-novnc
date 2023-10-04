@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM arm64v8/debian:latest
 
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
